@@ -10,48 +10,10 @@
 
      <title>Dhanesh SR</title>
 
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -19px 0 0 0; border-radius: 50%;
-            -webkit-box-shadow: -0.5px 0.5px 0.3px 0.3px rgba(0, 0, 0, 0.3);
-            -moz-box-shadow: -0.5px 0.5px 0.3px 0.3px rgba(0, 0, 0, 0.3);
-            box-shadow: -0.5px 0.5px 0.3px 0.3px rgba(0, 0, 0, 0.3)
-        }
-        #pic:hover {
-            -webkit-box-shadow: -1px 1px 0.6px 0.6px rgba(0, 0, 0, 0.3);
-            -moz-box-shadow: -1px 1px 0.6px 0.6px rgba(0, 0, 0, 0.3);
-            box-shadow: -1px 1px 0.6px 0.6px rgba(0, 0, 0, 0.3);
-        }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 580px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 600px; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
-        @media print {
-            body { background: none; }
-            #pic {
-                border-radius: 0%;
-                box-shadow: none;
-                -webkit-box-shadow: none;
-                -moz-box-shadow:none;
-            }
-            #pic:hover {
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
-            }
-        }
-     </style>
+     <link href="style.css" rel="stylesheet" type="text/css">
+
+     <link href="media-queries.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -64,7 +26,7 @@
         
             <!-- Microformats! -->
         
-            <h1 style="width:580px;">Dhanesh SR</h1>
+            <h1>Dhanesh SR</h1>
         
             <p>
                 Phone: <span class="tel">+91 703 494 0267</span><br />
@@ -107,10 +69,12 @@
             <dd>
                 <h2>Operating Systems</h2>
                 Windows (XP and above)<br />
-                Linux:<br />
-                    <span style="margin-left:2.5em">Chromium OS</span><br />
-                    <span style="margin-left:2.5em">Fedora</span><br />
-                    <span style="margin-left:2.5em">Ubuntu</span><br />                
+                <span style="display:inline-block; text-align:left;">
+                    Linux:<br />
+                    <span style="margin-left:2.5em;">Chromium OS</span><br />
+                    <span style="margin-left:2.5em;">Fedora</span><br />
+                    <span style="margin-left:2.5em;">Ubuntu</span><br />
+                </span>               
             </dd>
                 
             <dd><h2>Web Technologies</h2>
@@ -142,18 +106,19 @@
                     <strong>Software/Hardware/Tools Used: </strong> C, Filesystem in Userspace (FUSE)<br />
                     <strong>Operating System: </strong> Linux (>=2.6)<br />
                     <strong>Roles played: </strong> Design, Coding, Testing<br />
-                    <strong>Team Size: </strong> 5</p>
+                    <strong>Team Size: </strong> 5
+                </p>
             </dd>
             
             <dd class="clear"></dd>
             
             <dt style="height:35px;">Seminar</dt>
-            <dd>Helio Display</dd>
+            <dd><p>Helio Display</p></dd>
             
             <dd class="clear"></dd>
             
             <dt style="height:35px;">Hobbies</dt>
-            <dd>Googling, Listening to music</dd>
+            <dd><p>Googling, Listening to music</p></dd>
             
             <dd class="clear"></dd>
             

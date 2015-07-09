@@ -1,0 +1,36 @@
+@media screen and (max-width: 840px) {
+    #page-wrap { width: 95%; margin: 40px auto 60px; }
+    #pic { float: right; width: 27%; margin: -19px 0 0 0; border-radius: 50%;}
+    #contact-info h1{ width:72%; }
+    #objective{width: 72.5%; } 
+    dt{width: 18.75%; }
+    dd{width: 75%; }
+}
+
+@media screen and (max-width: 650px) {
+    *{text-align: center; max-width: 100%; }
+    #page-wrap { width: 100%; }
+    #pic { width: 27%; clear: both; margin: 0 auto 0 ; border-radius: 50%; float: none;}
+    #contact-info h1{ width:100%; margin-top: 15px; }
+    h1{line-height: 100%;}
+    #objective{width: 95%%; float: none; display: inline-block; }
+    dt{ width: 100%; height: auto; padding: 20px 0 5px 0; border-top: 1px dashed #999; border-bottom: 1px solid #999; border-right: none; float: none;text-align: center;}
+    dd{ width: 100%; }
+    dd.clear { float: none; margin: 0; height: 0px; }
+    p { margin: 0 0 16px 0; }
+}
+
+@media print {
+    body { background: none; }
+    #pic {
+        border-radius: 0%;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow:none;
+    }
+    #pic:hover {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+}
