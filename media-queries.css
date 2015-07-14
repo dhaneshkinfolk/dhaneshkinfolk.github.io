@@ -13,7 +13,7 @@
     #pic { width: 27%; clear: both; margin: 0 auto 0 ; border-radius: 50%; float: none;}
     #contact-info h1{ width:100%; margin-top: 15px; }
     h1{line-height: 100%;}
-    #objective{width: 95%%; float: none; display: inline-block; }
+    #objective{max-width: 95%%; float: none; display: inline-block; }
     dt{ width: 100%; height: auto; padding: 20px 0 5px 0; border-top: 1px dashed #999; border-bottom: 1px solid #999; border-right: none; float: none;text-align: center;}
     dd{ width: 100%; }
     dd.clear { float: none; margin: 0; height: 0px; }
